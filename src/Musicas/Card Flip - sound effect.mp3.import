@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxtv2ytsino0r"
+path="res://.godot/imported/Card Flip - sound effect.mp3-7e53aabe936cc5d1e62432fdb37b5ba9.mp3str"
+
+[deps]
+
+source_file="res://Musicas/Card Flip - sound effect.mp3"
+dest_files=["res://.godot/imported/Card Flip - sound effect.mp3-7e53aabe936cc5d1e62432fdb37b5ba9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

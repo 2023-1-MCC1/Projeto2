@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4xmih0lbac2f"
+path="res://.godot/imported/Komiku - Victory.mp3-810b168458179646b2adab9e9efec98f.mp3str"
+
+[deps]
+
+source_file="res://Musicas/Komiku - Victory.mp3"
+dest_files=["res://.godot/imported/Komiku - Victory.mp3-810b168458179646b2adab9e9efec98f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

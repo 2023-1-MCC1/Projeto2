@@ -60,12 +60,13 @@ Entre no link: https://drive.google.com/file/d/1acQZBRlcTqI151HY2iexVGL8vuaB51sQ
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
+  
+Instale e abra o Godot. 
 
+Depois, importe o arquivo .project do jogo.
 
 ## 🗃 Histórico de lançamentos
 

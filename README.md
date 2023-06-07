@@ -13,20 +13,14 @@
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/victorbarq/">Fabiano Alves Onça</a>, <a href="https://www.linkedin.com/in/victorbarq/">Jefferson de Oliveira Silva</a>, <a href="https://www.linkedin.com/in/victorbarq/">Renata Muniz Do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 
 ## Descrição
-O jogo YoungLeader foi criado para a conclusão do 1º semestre do curso de Ciência da Computação na FECAP.
-A temática abordada tem enfoque nos Objetivos de Desenvolvimento Sustentável da ONU, mais especificamente o ODS 11. No jogo, o jogador tem o papel de comandante de uma cidade, estado ou país e deve fazer escolhas para alocar seus investimentos em determinados problemas apresentados por meio de cartas.
 <p align="center">
 <img src="https://github.com/2023-1-MCC1/Projeto2/blob/main/imagens/Capa%20do%20Jogo.png" alt="YoungLeader" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+O jogo YoungLeaderm foi criado para a conclusão do 1º semestre do curso de Ciência da Computação na FECAP.
+A temática abordada tem enfoque nos Objetivos de Desenvolvimento Sustentável da ONU, mais especificamente o ODS 11. Nele, o jogador tem o papel de comandante de uma cidade, estado ou país e deve fazer escolhas para alocar seus investimentos em determinados problemas apresentados por meio de cartas.
 
 ## 🛠 Estrutura de pastas
 

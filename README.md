@@ -8,9 +8,9 @@
 
 ## Nome do Grupo: YoungLeader
 
-## Integrantes: <a href="https://www.linkedin.com/in/bruno-costa-dourado-192b3b26a/">Bruno Costa Dourado</a>, <a href="https://www.linkedin.com/in/victorbarq/">Eduardo Sturm</a>, <a href="https://www.linkedin.com/in/victorbarq/">Fernando Kenzo</a>, <a href="https://www.linkedin.com/in/victorbarq/">Marcello Lassalla</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/bruno-costa-dourado-192b3b26a/">Bruno Costa Dourado</a>, <a href="https://www.linkedin.com/in/eduardo-sturm-599a45223/">Eduardo Sturm</a>, <a href="https://www.linkedin.com/in/victorbarq/">Fernando Kenzo</a>, <a href="https://www.linkedin.com/in/marcello-lassalla-a146b8225/">Marcello Lassalla</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/victorbarq/">Fabiano Alves Onça</a>, <a href="https://www.linkedin.com/in/victorbarq/">Jefferson de Oliveira Silva</a>, <a href="https://www.linkedin.com/in/victorbarq/">Renata Muniz Do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 
 ## Descrição
 

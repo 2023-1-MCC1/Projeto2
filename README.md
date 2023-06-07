@@ -15,11 +15,8 @@
 ## Descrição
 <p align="center">
 <img src="https://github.com/2023-1-MCC1/Projeto2/blob/main/imagens/Capa%20do%20Jogo.png" alt="YoungLeader" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
 
-
-O jogo YoungLeaderm foi criado para a conclusão do 1º semestre do curso de Ciência da Computação na FECAP.
+O jogo YoungLeader foi criado para a conclusão do 1º semestre do curso de Ciência da Computação na FECAP.
 A temática abordada tem enfoque nos Objetivos de Desenvolvimento Sustentável da ONU, mais especificamente o ODS 11. Nele, o jogador tem o papel de comandante de uma cidade, estado ou país e deve fazer escolhas para alocar seus investimentos em determinados problemas apresentados por meio de cartas.
 
 ## 🛠 Estrutura de pastas

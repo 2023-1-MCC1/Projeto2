@@ -1,0 +1,341 @@
+[gd_scene load_steps=9 format=3 uid="uid://dl8ragaq6hfm7"]
+
+[ext_resource type="Texture2D" uid="uid://crvvwweuhtp5t" path="res://Imagens/_63b8ddd7-5e68-4d33-934e-ebc56d60aa8c.jpg" id="1_bgyss"]
+[ext_resource type="Texture2D" uid="uid://bv7idveroor4g" path="res://Imagens/_a9b1a540-850a-42df-b551-53ea1c6a48f0.jpg" id="2_oo017"]
+[ext_resource type="Texture2D" uid="uid://bcq0ken1snt67" path="res://Imagens/_cfc32190-4fa6-4faf-8b01-1a1b5637cb4f.jpg" id="3_nasl0"]
+[ext_resource type="Texture2D" uid="uid://bejofmc7kq3mf" path="res://Imagens/_bdbe7921-235e-4cd6-83b6-f260c7471416.jpg" id="4_7nd50"]
+[ext_resource type="Texture2D" uid="uid://bq3bpcgeu73t2" path="res://Imagens/_617d4729-c0c5-45f8-86d9-7c61d3d3ef9a.jpg" id="5_j0qh0"]
+
+[sub_resource type="Animation" id="Animation_f4jbb"]
+resource_name = "Introdução"
+length = 46.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/63b8Ddd7-5e68-4d33-934e-ebc56d60Aa8c:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 8, 8.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(16.8, 17, 25, 25.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimationPlayer/6Dcad474-4Dc0-432e-b6Eb-67Fe77Ff4371:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(8.3, 8.5, 16.5, 17),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimationPlayer/Texto 1:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1, 8, 8.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AnimationPlayer/Texto 2:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(8.3, 8.5, 16.5, 17),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AnimationPlayer/Texto 3:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(16.8, 17, 25, 25.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AnimationPlayer/Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f2:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(25.3, 25.5, 35.5, 36),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("AnimationPlayer/Texto 4:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(25.3, 25.5, 35.5, 36),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("AnimationPlayer/Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f3:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(35.8, 36, 44, 46),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("AnimationPlayer/Texto 5:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(35.8, 36, 44, 46),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_u50kw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/63b8Ddd7-5e68-4d33-934e-ebc56d60Aa8c:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimationPlayer/6Dcad474-4Dc0-432e-b6Eb-67Fe77Ff4371:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimationPlayer/Texto 1:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AnimationPlayer/Texto 2:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AnimationPlayer/Texto 3:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AnimationPlayer/Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f2:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("AnimationPlayer/Texto 4:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("AnimationPlayer/Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f3:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("AnimationPlayer/Texto 5:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_p6kce"]
+_data = {
+"Introdução": SubResource("Animation_f4jbb"),
+"RESET": SubResource("Animation_u50kw")
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer"]
+autoplay = "Introdução"
+libraries = {
+"": SubResource("AnimationLibrary_p6kce")
+}
+
+[node name="63b8Ddd7-5e68-4d33-934e-ebc56d60Aa8c" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(640, 380)
+scale = Vector2(1.25, 0.742188)
+texture = ExtResource("1_bgyss")
+
+[node name="6Dcad474-4Dc0-432e-b6Eb-67Fe77Ff4371" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(640, 388)
+scale = Vector2(1.25, 0.757813)
+texture = ExtResource("2_oo017")
+
+[node name="Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(640, 380)
+scale = Vector2(1.25, 0.742188)
+texture = ExtResource("3_nasl0")
+
+[node name="Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(640, 380)
+scale = Vector2(1.25, 0.742188)
+texture = ExtResource("4_7nd50")
+
+[node name="Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f3" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(640, 380)
+scale = Vector2(1.25, 0.742188)
+texture = ExtResource("5_j0qh0")
+
+[node name="Texto 1" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 192.0
+offset_top = 640.0
+offset_right = 1080.0
+offset_bottom = 680.0
+bbcode_enabled = true
+text = "[center][b]Parabéns!![/b] Você ganhou as eleições de Ouverwood!![/center]"
+
+[node name="Texto 2" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 192.0
+offset_top = 640.0
+offset_right = 1080.0
+offset_bottom = 680.0
+bbcode_enabled = true
+text = "[center]Após diversos mandatos insatisfatórios, você foi o escolhido para representar o povo.[/center]"
+
+[node name="Texto 3" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 192.0
+offset_top = 640.0
+offset_right = 1080.0
+offset_bottom = 680.0
+bbcode_enabled = true
+text = "[center]A população de Ouverwood depositou em você o último pingo de esperança que lhes restavam.[/center]"
+
+[node name="Texto 4" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 192.0
+offset_top = 640.0
+offset_right = 1080.0
+offset_bottom = 688.0
+bbcode_enabled = true
+text = "[center]Cabe a você agora mostrar ao povo que eles acertaram na escolha. [b]Caso isso não aconteça, consequências severas lhe aguardam![/b][/center]"
+
+[node name="Texto 5" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 192.0
+offset_top = 640.0
+offset_right = 1080.0
+offset_bottom = 688.0
+bbcode_enabled = true
+text = "[center]Você terá que escolher onde investir o pouco que temos! [b]Tome cada decisão como se fosse a última!!![/b][/center]"

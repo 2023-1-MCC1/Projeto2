@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://curxd154qrd88"
+path="res://.godot/imported/Komiku - Tension.mp3-cf6f3af70cd2fd026cdea4e9a448fd90.mp3str"
+
+[deps]
+
+source_file="res://Musicas/Komiku - Tension.mp3"
+dest_files=["res://.godot/imported/Komiku - Tension.mp3-cf6f3af70cd2fd026cdea4e9a448fd90.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

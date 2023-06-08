@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3 uid="uid://due7twollhfkf"]
+
+[ext_resource type="Script" path="res://TeladeInício.cs" id="1_ulw5f"]
+[ext_resource type="FontFile" uid="uid://b541cc4vga0up" path="res://Fontes/UrbanJungleDEMO.otf" id="3_b23ku"]
+[ext_resource type="Texture2D" uid="uid://dcvdlglwc17g0" path="res://Imagens/_5682b7b3-f7c7-491b-8153-8ee53640407e.jpg" id="4_wf1fb"]
+[ext_resource type="FontFile" uid="uid://d3djessp5nttg" path="res://Fontes/DCC - Ash.otf" id="5_5s8h3"]
+[ext_resource type="AudioStream" uid="uid://c6ytjf3kvndxv" path="res://Musicas/Pollux - Corruption Eternelle.mp3" id="6_in7tm"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ulw5f")
+
+[node name="5682b7b3-f7c7-491b-8153-8Ee53640407e" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(640, 384)
+scale = Vector2(1.25, 0.75)
+texture = ExtResource("4_wf1fb")
+
+[node name="Label" type="Label" parent="."]
+light_mask = 3
+offset_left = 408.0
+offset_top = 392.0
+offset_right = 852.0
+offset_bottom = 608.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_b23ku")
+theme_override_font_sizes/font_size = 86
+text = "Young
+  Leader"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BotaoInicio" type="Button" parent="."]
+z_as_relative = false
+offset_left = 448.0
+offset_top = 605.0
+offset_right = 832.0
+offset_bottom = 642.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="BotaoInicio"]
+z_as_relative = false
+layout_mode = 0
+offset_left = 129.0
+offset_top = 6.0
+offset_right = 256.0
+offset_bottom = 35.0
+theme_override_fonts/bold_font = ExtResource("5_5s8h3")
+theme_override_font_sizes/bold_font_size = 28
+bbcode_enabled = true
+text = "[center][b]Jogar[/b][/center]"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_in7tm")
+autoplay = true
+
+[connection signal="pressed" from="BotaoInicio" to="." method="_on_botao_inicio_pressed"]

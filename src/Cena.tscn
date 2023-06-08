@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dneemkc3b8vut"]
+
+[ext_resource type="PackedScene" uid="uid://dl8ragaq6hfm7" path="res://CenaIntrodutoria.tscn" id="1_vd3mt"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimationPlayer" parent="." instance=ExtResource("1_vd3mt")]

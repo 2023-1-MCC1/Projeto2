@@ -80,7 +80,7 @@ Aqui estão as referências usadas no projeto.
 
 MEIO AMBIENTE:
 https://www.google.com/imgres?imgurl=https://img.pebmed.com.br/wp-content/uploads/2022/12/22135141/radiacao_ortopedicas.jpg.webp&tbnid=ejSzTH4SlJ4j9M&vet=1&imgrefurl=https://pebmed.com.br/qual-e-a-exposicao-a-radiacao-nas-cirurgias-ortopedicas/&docid=uIHgC0Itay5xiM&w=640&h=640&source=sh/x/im/0&shem=nce
-1 (não precisa de nenhuma autorizaçao)
+
 https://www.google.com/imgres?imgurl=https://static.vecteezy.com/system/resources/previews/003/689/269/original/polluted-sea-and-beach-view-illustration-vector.jpg&tbnid=MlhngcNPsqUkMM&vet=1&imgrefurl=https://pt.vecteezy.com/arte-vetorial/3689269-ilustracao-de-vista-mar-praia-poluida&docid=cx_uWBKYHtKRDM&w=1920&h=1902&source=sh/x/im/0&shem=nce
 2 (<a href="https://pt.vecteezy.com/vetor-gratis/aventura">Aventura Vetores por Vecteezy</a>)
 https://www.google.com/imgres?imgurl=https://media.istockphoto.com/id/935994464/pt/vetorial/cartoon-smog.jpg?s%3D612x612%26w%3D0%26k%3D20%26c%3Dx-NicPhdeWOMKnZntAN8UVGLIwN8lAkjgfXr9qFxEc4%3D&tbnid=Fd8u9ONHn9dGuM&vet=1&imgrefurl=https://www.istockphoto.com/br/vetor/polui%25C3%25A7%25C3%25A3o-atmosf%25C3%25A9rica-dos-desenhos-animados-gm935994464-256054840&docid=NewjIRsV-B30xM&w=612&h=461&hl=pt-BR&source=sh/x/im/2&shem=nce

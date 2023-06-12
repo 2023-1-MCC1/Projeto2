@@ -14,7 +14,7 @@
 
 ## Descrição
 <p align="center">
-<img src="https://github.com/2023-1-MCC1/Projeto2/blob/main/imagens/Capa%20do%20Jogo.png" alt="YoungLeader" border="0">
+<img src="https://github.com/2023-1-MCC1/Projeto2/blob/main/imagens/Tela%20Inicial.png" alt="YoungLeader" border="0">
 
 O jogo YoungLeader foi criado para a conclusão do 1º semestre do curso de Ciência da Computação na FECAP.<br>
 

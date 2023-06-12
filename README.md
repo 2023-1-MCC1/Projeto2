@@ -87,8 +87,8 @@ Imagens:
   
 Músicas
   Derrota, BoxCat Games, Free Music Archive, Licença CC BY<br>
-  <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/"></a> Música de Vitória<br>
-  <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/"></a> Música da Fase<br>
+  <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música de Vitória</a><br>
+  <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música da Fase</a><br>
   Corrupção Eterna, Pollux, Free Music Archive, Licença CC BY-NC-ND<br>
   In Your Hands, retirada do site  <a href="https://www.fiftysounds.com/pt/">FiftySounds</a><br>
 

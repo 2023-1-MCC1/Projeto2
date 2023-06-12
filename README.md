@@ -80,10 +80,10 @@ Aqui estão as referências usadas no projeto.
 
 Imagens:
   <a href="http://www.bing.com/images/create"></a> Imagens geradas pela IA do Microsoft BING<br>
-  <a href="https://www.flaticon.com/br/icones-gratis/terra" title="terra ícones"> Terra ícones criados por Freepik - Flaticon</a> Ícone do setor de Meio Ambiente<br>
-  <a href="https://www.flaticon.com/br/icones-gratis/seguro" title="seguro ícones"> Seguro ícones criados por Freepik - Flaticon</a> Ícone do setor de Segurança<br>
-  <a href="https://www.flaticon.com/br/icones-gratis/ensino-superior" title="ensino superior ícones"> Ensino superior ícones criados por Kalashnyk - Flaticon</a> Ícone do setor de Educação<br>
-  <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones"> Saúde ícones criados por Freepik - Flaticon</a> Ícone do setor de Saúde<br>
+  <a href="https://www.flaticon.com/br/icones-gratis/terra" title="terra ícones"> Terra ícones criados por Freepik - Flaticon</a> - Ícone do setor de Meio Ambiente<br>
+  <a href="https://www.flaticon.com/br/icones-gratis/seguro" title="seguro ícones"> Seguro ícones criados por Freepik - Flaticon</a> - Ícone do setor de Segurança<br>
+  <a href="https://www.flaticon.com/br/icones-gratis/ensino-superior" title="ensino superior ícones"> Ensino superior ícones criados por Kalashnyk - Flaticon</a> - Ícone do setor de Educação<br>
+  <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones"> Saúde ícones criados por Freepik - Flaticon</a> - Ícone do setor de Saúde<br>
   
 Músicas
   Derrota, BoxCat Games, Free Music Archive, Licença CC BY<br>

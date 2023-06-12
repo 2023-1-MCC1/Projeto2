@@ -85,7 +85,7 @@ Imagens:
   <a href="https://www.flaticon.com/br/icones-gratis/ensino-superior" title="ensino superior ícones"> Ensino superior ícones criados por Kalashnyk - Flaticon</a> - Ícone do setor de Educação<br>
   <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones"> Saúde ícones criados por Freepik - Flaticon</a> - Ícone do setor de Saúde<br>
   
-Músicas
+Músicas: <br>
   Derrota, BoxCat Games, Free Music Archive, Licença CC BY<br>
   <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música de Vitória</a><br>
   <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música da Fase</a><br>

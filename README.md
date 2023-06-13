@@ -86,10 +86,10 @@ Imagens: <br>
   <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones"> Saúde ícones criados por Freepik - Flaticon</a> - Ícone do setor de Saúde<br>
   
 Músicas: <br>
-  Derrota, BoxCat Games, Free Music Archive, Licença CC BY<br>
+  Defeat, BoxCat Games, Free Music Archive, Licença CC BY<br>
   <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música de Vitória</a><br>
   Track 1, HoliznaCC0, Free Music Archive, Licença CC0/Public Domain - Música da Fase<br>
-  Corrupção Eterna, Pollux, Free Music Archive, Licença CC BY-NC-ND<br>
+  Corruption Eternelle, Pollux, Free Music Archive, Licença CC BY-NC-ND<br>
   In Your Hands, retirada do site  <a href="https://www.fiftysounds.com/pt/">FiftySounds</a><br>
 
 

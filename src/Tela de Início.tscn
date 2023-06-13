@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://due7twollhfkf"]
 
 [ext_resource type="Script" path="res://TeladeInício.cs" id="1_ulw5f"]
+[ext_resource type="Texture2D" uid="uid://brwk45usyq2c7" path="res://Imagens/_12c8d1e8-033c-43ce-b60b-42672d58b63e.jpg" id="2_xm17l"]
 [ext_resource type="FontFile" uid="uid://b541cc4vga0up" path="res://Fontes/UrbanJungleDEMO.otf" id="3_b23ku"]
-[ext_resource type="Texture2D" uid="uid://dcvdlglwc17g0" path="res://Imagens/_5682b7b3-f7c7-491b-8153-8ee53640407e.jpg" id="4_wf1fb"]
 [ext_resource type="FontFile" uid="uid://d3djessp5nttg" path="res://Fontes/DCC - Ash.otf" id="5_5s8h3"]
 [ext_resource type="AudioStream" uid="uid://c6ytjf3kvndxv" path="res://Musicas/Pollux - Corruption Eternelle.mp3" id="6_in7tm"]
 
@@ -10,10 +10,10 @@
 script = ExtResource("1_ulw5f")
 
 [node name="5682b7b3-f7c7-491b-8153-8Ee53640407e" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0.686275)
+modulate = Color(1, 1, 1, 0.486275)
 position = Vector2(640, 384)
 scale = Vector2(1.25, 0.75)
-texture = ExtResource("4_wf1fb")
+texture = ExtResource("2_xm17l")
 
 [node name="Label" type="Label" parent="."]
 light_mask = 3
@@ -48,8 +48,10 @@ theme_override_font_sizes/bold_font_size = 28
 bbcode_enabled = true
 text = "[center][b]Jogar[/b][/center]"
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+[node name="MusicaInicio" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("6_in7tm")
+volume_db = 4.0
 autoplay = true
 
 [connection signal="pressed" from="BotaoInicio" to="." method="_on_botao_inicio_pressed"]
+[connection signal="finished" from="MusicaInicio" to="." method="_on_musica_inicio_finished"]

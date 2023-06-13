@@ -151,14 +151,14 @@ offset_bottom = 565.0
 [node name="RichTextLabel" type="RichTextLabel" parent="AnimationPlayer/BotaoDerrota2"]
 z_as_relative = false
 layout_mode = 0
-offset_left = 160.0
+offset_left = 128.0
 offset_top = 5.0
-offset_right = 224.0
+offset_right = 256.0
 offset_bottom = 33.0
 theme_override_fonts/bold_font = ExtResource("4_il5r5")
 theme_override_font_sizes/bold_font_size = 28
 bbcode_enabled = true
-text = "[center][b]Sair[/b][/center]"
+text = "[center][b]Sair do Jogo[/b][/center]"
 
 [connection signal="pressed" from="AnimationPlayer/BotaoDerrota1" to="." method="_on_botao_derrota_1_pressed"]
 [connection signal="pressed" from="AnimationPlayer/BotaoDerrota2" to="." method="_on_botao_derrota_2_pressed"]

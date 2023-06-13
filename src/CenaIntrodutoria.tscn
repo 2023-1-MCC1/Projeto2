@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://crvvwweuhtp5t" path="res://Imagens/_63b8ddd7-5e68-4d33-934e-ebc56d60aa8c.jpg" id="1_bgyss"]
 [ext_resource type="Texture2D" uid="uid://bv7idveroor4g" path="res://Imagens/_a9b1a540-850a-42df-b551-53ea1c6a48f0.jpg" id="2_oo017"]
-[ext_resource type="Texture2D" uid="uid://bcq0ken1snt67" path="res://Imagens/_cfc32190-4fa6-4faf-8b01-1a1b5637cb4f.jpg" id="3_nasl0"]
+[ext_resource type="Texture2D" uid="uid://db1ir2rvx82yo" path="res://Imagens/_c8cd1649-95ef-4147-a02b-1a470e3245d3.jpg" id="3_qcvyv"]
 [ext_resource type="Texture2D" uid="uid://bejofmc7kq3mf" path="res://Imagens/_bdbe7921-235e-4cd6-83b6-f260c7471416.jpg" id="4_7nd50"]
 [ext_resource type="Texture2D" uid="uid://bq3bpcgeu73t2" path="res://Imagens/_617d4729-c0c5-45f8-86d9-7c61d3d3ef9a.jpg" id="5_j0qh0"]
 
@@ -278,10 +278,9 @@ scale = Vector2(1.25, 0.757813)
 texture = ExtResource("2_oo017")
 
 [node name="Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0)
 position = Vector2(640, 380)
 scale = Vector2(1.25, 0.742188)
-texture = ExtResource("3_nasl0")
+texture = ExtResource("3_qcvyv")
 
 [node name="Cfc32190-4Fa6-4Faf-8b01-1a1b5637Cb4f2" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
@@ -314,7 +313,6 @@ bbcode_enabled = true
 text = "[center]Após diversos mandatos insatisfatórios, você foi o escolhido para representar o povo.[/center]"
 
 [node name="Texto 3" type="RichTextLabel" parent="."]
-modulate = Color(1, 1, 1, 0)
 offset_left = 192.0
 offset_top = 640.0
 offset_right = 1080.0

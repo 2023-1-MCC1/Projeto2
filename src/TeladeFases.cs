@@ -5,7 +5,8 @@ public partial class TeladeFases : Node2D
 {
 	AnimationPlayer Area1, Area2, Area3;
 	bool entrou1, entrou2, entrou3;
-	// Called when the node enters the scene tree for the first time.
+	public static int nivel;
+	
 	public override void _Ready()
 	{
 		Area1 = this.GetNode<AnimationPlayer>("Fase1");
@@ -13,23 +14,25 @@ public partial class TeladeFases : Node2D
 		Area3 = this.GetNode<AnimationPlayer>("Fase3");
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
 	}
 	
 	private void _on_botao_fase_1_pressed()
 	{
+		nivel = 0;
 		GetTree().ChangeSceneToFile("res://Inicio.tscn");
 	}
 	
 	private void _on_botao_fase_2_pressed()
 	{
+		nivel = 1;
 		GetTree().ChangeSceneToFile("res://Inicio.tscn");
 	}
 	
 	private void _on_botao_fase_3_pressed()
 	{
+		nivel = 2;
 		GetTree().ChangeSceneToFile("res://Inicio.tscn");
 	}
 	
@@ -62,7 +65,6 @@ public partial class TeladeFases : Node2D
 	{
 		Area3.Stop();
 	}
-	
 }
 
 

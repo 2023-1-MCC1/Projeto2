@@ -13,7 +13,6 @@ public partial class Introdução : Node2D
 	public String textojornal;
 	Sprite2D jornal;
 	
-	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
 		GetNode<LineEdit>("LineEdit").Hide();
@@ -26,7 +25,6 @@ public partial class Introdução : Node2D
 		texto2.Hide();
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
 		if (posimagensIntroducao == 1)
@@ -35,8 +33,8 @@ public partial class Introdução : Node2D
 			GetNode<LineEdit>("LineEdit").Hide();
 			GetNode<Sprite2D>("NewPiskel").Hide();
 			GetNode<Sprite2D>("NewPiskel2").Show();
-			texto.Position = new Vector2 (416, 147);
-			texto.Text = "[fill][b][color=black]"+textojornal + " ganhou as eleições!!![/color][/b][/fill]";
+			texto.Position = new Vector2 (424, 149);
+			texto.Text = "[center][b][color=black]"+textojornal + " ganhou as eleições!!![/color][/b][/center]";
 			texto2.Text = "[center](aperte ENTER para continuar)[/center]";
 		}
 		
@@ -75,7 +73,15 @@ public partial class Introdução : Node2D
 		GetNode<LineEdit>("LineEdit").Show();
 		texto2.Text = "[center](aperte ENTER para continuar)[/center]";
 	}
+	
+	private void _on_button_pressed()
+	{
+		GetTree().ChangeSceneToFile("res://TeladeFases.tscn");
+	}
 }
+
+
+
 
 
 

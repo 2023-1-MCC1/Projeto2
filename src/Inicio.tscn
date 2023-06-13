@@ -2,15 +2,15 @@
 
 [ext_resource type="Script" path="res://Inicio.cs" id="1_tnhby"]
 [ext_resource type="Script" path="res://Status.cs" id="2_hyklh"]
-[ext_resource type="Texture2D" uid="uid://ciwwgwd3c1xbb" path="res://Imagens/SetorSaude.png" id="2_in0bq"]
-[ext_resource type="Texture2D" uid="uid://5uhkswwqha6n" path="res://Imagens/StatusAmbiente.png" id="3_o8fmm"]
-[ext_resource type="Texture2D" uid="uid://b7xei50lis7ai" path="res://Imagens/opinião-traseira-o-homem-de-negócios-novo-está-olhando-fora-uma-janela-panorâmico-e-falando-pelo-telefone-112200430.jpg" id="3_thsw4"]
-[ext_resource type="Texture2D" uid="uid://cogo7uao53mgp" path="res://Imagens/StatusSeguranca.png" id="4_1h7ms"]
+[ext_resource type="Texture2D" uid="uid://bnn7y8n6k82h2" path="res://Imagens/_fb1c7a54-e6bc-4b2d-bfb2-020d24a7fd16.jpg" id="2_ivl35"]
+[ext_resource type="Texture2D" uid="uid://bcracd5lk0y1r" path="res://Imagens/cuidados-de-saude.png" id="5_35nbf"]
 [ext_resource type="Texture2D" uid="uid://dbkxjp1iakmh3" path="res://Imagens/Moedas.png" id="5_jaxdk"]
-[ext_resource type="Texture2D" uid="uid://c32or3x0s76ye" path="res://Imagens/Design_sem_nome-removebg-preview.png" id="7_g7psd"]
-[ext_resource type="Texture2D" uid="uid://uyxofx36mty1" path="res://Imagens/New Piskel (9).png" id="9_5jto1"]
+[ext_resource type="Texture2D" uid="uid://s4tmx6nk77lw" path="res://Imagens/salve-.png" id="6_q8tl5"]
+[ext_resource type="Texture2D" uid="uid://cuxjhgb1ee605" path="res://Imagens/escudo.png" id="7_abmg1"]
+[ext_resource type="Texture2D" uid="uid://djqg7j3stem2x" path="res://Imagens/ensino-superior.png" id="8_vtet6"]
+[ext_resource type="Texture2D" uid="uid://c5hhaqyw1hkni" path="res://Imagens/Cartas Oficiais.png" id="9_mks8a"]
 [ext_resource type="AudioStream" uid="uid://bxtv2ytsino0r" path="res://Musicas/Card Flip - sound effect.mp3" id="10_hx81a"]
-[ext_resource type="AudioStream" uid="uid://curxd154qrd88" path="res://Musicas/Komiku - Tension.mp3" id="11_saq0w"]
+[ext_resource type="AudioStream" uid="uid://besn5iior6yhq" path="res://Musicas/HoliznaCC0 - Track 1.mp3" id="11_ktnbu"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7jfyl"]
 bg_color = Color(0.635294, 0.12549, 0.0392157, 1)
@@ -303,17 +303,11 @@ _data = {
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_tnhby")
 
-[node name="Fundo" type="TextureRect" parent="."]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -184.0
-offset_top = 1.0
-offset_right = 1625.0
-offset_bottom = 736.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("3_thsw4")
+[node name="Fb1c7a54-e6Bc-4b2d-bfb2-020d24a7Fd16" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.490196)
+position = Vector2(640, 388)
+scale = Vector2(1.25, 0.757813)
+texture = ExtResource("2_ivl35")
 
 [node name="Moeda1" type="Sprite2D" parent="."]
 z_index = 1
@@ -359,11 +353,11 @@ script = ExtResource("2_hyklh")
 
 [node name="SetorSaude" type="TextureRect" parent="Control"]
 layout_mode = 2
-offset_left = 523.0
-offset_top = 42.0
-offset_right = 597.0
-offset_bottom = 116.0
-texture = ExtResource("2_in0bq")
+offset_left = 529.0
+offset_top = 46.0
+offset_right = 592.0
+offset_bottom = 109.0
+texture = ExtResource("5_35nbf")
 expand_mode = 1
 
 [node name="BarraSaude" type="ProgressBar" parent="Control"]
@@ -380,11 +374,11 @@ show_percentage = false
 
 [node name="SetorAmbiente" type="TextureRect" parent="Control"]
 layout_mode = 2
-offset_left = 80.0
-offset_top = 43.0
-offset_right = 155.0
-offset_bottom = 118.0
-texture = ExtResource("3_o8fmm")
+offset_left = 86.0
+offset_top = 45.0
+offset_right = 151.0
+offset_bottom = 110.0
+texture = ExtResource("6_q8tl5")
 expand_mode = 1
 
 [node name="BarraAmbiente" type="ProgressBar" parent="Control"]
@@ -400,11 +394,11 @@ show_percentage = false
 
 [node name="SetorSeguranca" type="TextureRect" parent="Control"]
 layout_mode = 2
-offset_left = 226.0
-offset_top = 39.0
-offset_right = 304.0
-offset_bottom = 117.0
-texture = ExtResource("4_1h7ms")
+offset_left = 232.0
+offset_top = 43.0
+offset_right = 299.0
+offset_bottom = 110.0
+texture = ExtResource("7_abmg1")
 expand_mode = 1
 
 [node name="BarraSeguranca" type="ProgressBar" parent="Control"]
@@ -423,7 +417,7 @@ offset_left = 373.0
 offset_top = 38.0
 offset_right = 449.0
 offset_bottom = 114.0
-texture = ExtResource("7_g7psd")
+texture = ExtResource("8_vtet6")
 expand_mode = 1
 
 [node name="BarraEnsino" type="ProgressBar" parent="Control"]
@@ -445,7 +439,7 @@ libraries = {
 [node name="Carta1" type="Sprite2D" parent="Flip1"]
 position = Vector2(184.375, 419.044)
 scale = Vector2(1e-05, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -454,7 +448,7 @@ metadata/_edit_group_ = true
 [node name="Back1" type="Sprite2D" parent="Flip1"]
 position = Vector2(209.25, 417.5)
 scale = Vector2(0.3, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -484,7 +478,7 @@ libraries = {
 [node name="Carta2" type="Sprite2D" parent="Flip2"]
 position = Vector2(487.375, 419.044)
 scale = Vector2(1e-05, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -493,7 +487,7 @@ metadata/_edit_group_ = true
 [node name="Back2" type="Sprite2D" parent="Flip2"]
 position = Vector2(496.25, 417.5)
 scale = Vector2(0.3, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -519,7 +513,7 @@ libraries = {
 [node name="Carta3" type="Sprite2D" parent="Flip3"]
 position = Vector2(790.375, 419.044)
 scale = Vector2(1e-05, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -528,7 +522,7 @@ metadata/_edit_group_ = true
 [node name="Back3" type="Sprite2D" parent="Flip3"]
 position = Vector2(783.25, 417.5)
 scale = Vector2(0.3, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -554,7 +548,7 @@ libraries = {
 [node name="Carta4" type="Sprite2D" parent="Flip4"]
 position = Vector2(1093.38, 418.044)
 scale = Vector2(1e-05, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -563,7 +557,7 @@ metadata/_edit_group_ = true
 [node name="Back4" type="Sprite2D" parent="Flip4"]
 position = Vector2(1070.25, 417.5)
 scale = Vector2(0.3, 0.3)
-texture = ExtResource("9_5jto1")
+texture = ExtResource("9_mks8a")
 hframes = 11
 vframes = 7
 frame = 70
@@ -593,7 +587,7 @@ position = Vector2(790, 591.5)
 position = Vector2(1093, 590.5)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("11_saq0w")
+stream = ExtResource("11_ktnbu")
 volume_db = -3.0
 autoplay = true
 

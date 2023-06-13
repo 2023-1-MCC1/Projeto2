@@ -3,12 +3,13 @@ using System;
 
 public partial class TeladeInício : Node2D
 {
-	// Called when the node enters the scene tree for the first time.
+	AudioStreamPlayer2D musicainicio;
+	
 	public override void _Ready()
 	{
+		musicainicio = this.GetNode<AudioStreamPlayer2D>("MusicaInicio");
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
 	}
@@ -17,7 +18,18 @@ public partial class TeladeInício : Node2D
 	{
 		GetTree().ChangeSceneToFile("res://Introdução.tscn");
 	}
+	
+	private void _on_musica_inicio_finished()
+	{
+		//musicainicio.Loop = true;
+	}
 }
+
+
+
+
+
+
 
 
 

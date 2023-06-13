@@ -118,6 +118,19 @@ _data = {
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_quqs4")
 
+[node name="Label" type="Label" parent="."]
+modulate = Color(1, 1, 1, 0.564706)
+offset_left = 1008.0
+offset_top = 32.0
+offset_right = 1257.0
+offset_bottom = 58.0
+text = "(clique com o mouse para pular)"
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_right = 1280.0
+offset_bottom = 720.0
+
 [node name="A50Adb67-60f8-4229-9187-31d432f73a18" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0.556863)
 position = Vector2(640, 368)
@@ -219,5 +232,6 @@ Victor Bruno Alexander Rosetti de Quiroz
 scroll_active = false
 scroll_following = true
 
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="AnimationPlayer/BotaoVitoria1" to="." method="_on_botao_vitoria_1_pressed"]
 [connection signal="pressed" from="AnimationPlayer/BotaoVitoria2" to="." method="_on_botao_vitoria_2_pressed"]

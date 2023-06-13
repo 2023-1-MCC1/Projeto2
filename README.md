@@ -8,13 +8,13 @@
 
 ## Nome do Grupo: YoungLeader
 
-## Integrantes: <a href="https://www.linkedin.com/in/bruno-costa-dourado-192b3b26a/">Bruno Costa Dourado</a>, <a href="https://www.linkedin.com/in/eduardo-sturm-599a45223/"> Eduardo Sturm</a>,<a href="https://www.linkedin.com/in/fernando-kenzo/"> Fernando Kenzo Sassaki Cunha</a>, <a href="https://www.linkedin.com/in/marcello-lassalla-a146b8225/"> Marcello Lassalla De Mello Castanho E Oliveira</a>
+## Integrantes: <a href="https://www.linkedin.com/in/bruno-costa-dourado-192b3b26a/">Bruno Costa Dourado</a>, <a href="https://www.linkedin.com/in/eduardo-sturm-599a45223/"> Eduardo Sturm</a>, <a href="https://www.linkedin.com/in/fernando-kenzo/">Fernando Kenzo Sassaki Cunha</a>, <a href="https://www.linkedin.com/in/marcello-lassalla-a146b8225/"> Marcello Lassalla De Mello Castanho E Oliveira</a>
 
 ## Professores Orientadores: Eduardo Savino Gomes</a>, Fabiano Alves Onça</a>, <a href="https://www.linkedin.com/in/jefferson-silva-2193b323/?originalSubdomain=br">Jefferson de Oliveira Silva</a>, Renata Muniz Do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 
 ## Descrição
 <p align="center">
-<img src="https://github.com/2023-1-MCC1/Projeto2/blob/main/imagens/Capa%20do%20Jogo.png" alt="YoungLeader" border="0">
+<img src="https://github.com/2023-1-MCC1/Projeto2/blob/main/imagens/Tela%20Inicial.png" alt="YoungLeader" border="0">
 
 O jogo YoungLeader foi criado para a conclusão do 1º semestre do curso de Ciência da Computação na FECAP.<br>
 
@@ -86,10 +86,10 @@ Imagens: <br>
   <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones"> Saúde ícones criados por Freepik - Flaticon</a> - Ícone do setor de Saúde<br>
   
 Músicas: <br>
-  Derrota, BoxCat Games, Free Music Archive, Licença CC BY<br>
+  Defeat, BoxCat Games, Free Music Archive, Licença CC BY<br>
   <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música de Vitória</a><br>
-  <a href="https://loyaltyfreakmusic.com/music/its-time-for-adventure-vol-2/">Música da Fase</a><br>
-  Corrupção Eterna, Pollux, Free Music Archive, Licença CC BY-NC-ND<br>
+  Track 1, HoliznaCC0, Free Music Archive, Licença CC0/Public Domain - Música da Fase<br>
+  Corruption Eternelle, Pollux, Free Music Archive, Licença CC BY-NC-ND<br>
   In Your Hands, retirada do site  <a href="https://www.fiftysounds.com/pt/">FiftySounds</a><br>
 
 

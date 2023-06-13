@@ -8,7 +8,7 @@
 
 ## Nome do Grupo: YoungLeader
 
-## Integrantes: <a href="https://www.linkedin.com/in/bruno-costa-dourado-192b3b26a/">Bruno Costa Dourado</a>, <a href="https://www.linkedin.com/in/eduardo-sturm-599a45223/"> Eduardo Sturm</a>,<a href="https://www.linkedin.com/in/fernando-kenzo/"> Fernando Kenzo Sassaki Cunha</a>, <a href="https://www.linkedin.com/in/marcello-lassalla-a146b8225/"> Marcello Lassalla De Mello Castanho E Oliveira</a>
+## Integrantes: <a href="https://www.linkedin.com/in/bruno-costa-dourado-192b3b26a/">Bruno Costa Dourado</a>, <a href="https://www.linkedin.com/in/eduardo-sturm-599a45223/"> Eduardo Sturm</a>, <a href="https://www.linkedin.com/in/fernando-kenzo/">Fernando Kenzo Sassaki Cunha</a>, <a href="https://www.linkedin.com/in/marcello-lassalla-a146b8225/"> Marcello Lassalla De Mello Castanho E Oliveira</a>
 
 ## Professores Orientadores: Eduardo Savino Gomes</a>, Fabiano Alves Onça</a>, <a href="https://www.linkedin.com/in/jefferson-silva-2193b323/?originalSubdomain=br">Jefferson de Oliveira Silva</a>, Renata Muniz Do Nascimento</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 

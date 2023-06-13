@@ -55,7 +55,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>Windows:</b>
 
-Entre no link: <a href="https://drive.google.com/file/d/18Vq_i1gDMHzCwzkIwbMKfj_28tZY_JO4/view?usp=sharing">, baixe o arquivo e execute-o como qualquer outro programa.
+Entre no <a href="https://drive.google.com/file/d/1a5bEQEwPl-thCYaZJVxefQXKq1-pYTqE/view?usp=sharing">link</a>, baixe o arquivo e execute-o como qualquer outro programa.
 
 
 ## 💻 Configuração para Desenvolvimento

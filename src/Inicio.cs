@@ -307,6 +307,7 @@ public partial class Inicio : Node
 	public override void _Ready()
 	{
 		level = TeladeFases.nivel;
+		avancar = this.GetNode<Button>("CanvasLayer/Button");
 		
 		Saudecurrent_health = 5 - level;
 		Saudemax_health = 10 - level;
@@ -319,16 +320,7 @@ public partial class Inicio : Node
 	
 		Ensinocurrent_health = 5 - level;
 		Ensinomax_health = 10 - level;
-		
-		GD.Print("Vida saude: "+Saudecurrent_health);
-		GD.Print("Vida ambiente: "+Ambientecurrent_health);
-		GD.Print("Vida segurança: "+Segurancacurrent_health);
-		GD.Print("Vida ensino: "+Ensinocurrent_health);
-		
-		GD.Print("Passei no ready do bagulho!");
-		GD.Print("Nivel: "+level);
-		avancar = this.GetNode<Button>("CanvasLayer/Button");
-		
+
 		posicao1 = GetNode<Node2D>("Posicao1").Position;
 		posicao2 = GetNode<Node2D>("Posicao2").Position;
 		posicao3 = GetNode<Node2D>("Posicao3").Position;
@@ -490,32 +482,15 @@ public partial class Inicio : Node
 		{
 			Setor3 = 3;
 		}
-
-		/*if (Saudecurrent_health <= 0 || Segurancacurrent_health <= 0 || Ensinocurrent_health <= 0 || Ambientecurrent_health <= 0)
-		{
-			GD.Print("Vida meio ambiente 1: "+Ambientecurrent_health);
-			GD.Print("Vida segurança 1: "+Segurancacurrent_health);
-			GD.Print("Vida ensino 1: "+Ensinocurrent_health);
-			GD.Print("Vida saúde 1: "+Saudecurrent_health);
-			
-			GetTree().ChangeSceneToFile("res://GameOver.tscn");
-		}*/
 	}
 	
 	public static void contas()
 	{
 		matriz();
 		Conta1 = Mathf.Max(-5, matrizTridimensionalcartas [Setor0,0,Carta1] + valorbotao1);
-		GD.Print("Conta1:"+Conta1+" Valor Carta:"+matrizTridimensionalcartas [Setor0,0,Carta1]+" Valor Botão:" + valorbotao1);
-		
 		Conta2 = Mathf.Max(-5, matrizTridimensionalcartas [Setor1,1,Carta2] + valorbotao2);
-		GD.Print("Conta2:"+Conta2+" Valor Carta:"+matrizTridimensionalcartas [Setor1,1,Carta2]+" Valor Botão:" + valorbotao2);
-		
 		Conta3 = Mathf.Max(-5, matrizTridimensionalcartas [Setor2,2,Carta3] + valorbotao3);
-		GD.Print("Conta3:"+Conta3+" Valor Carta:"+matrizTridimensionalcartas [Setor2,2,Carta3]+" Valor Botão:" + valorbotao3);
-		
 		Conta4 = Mathf.Max(-5, matrizTridimensionalcartas [Setor3,3,Carta4] + valorbotao4);
-		GD.Print("Conta4:"+Conta4+" Valor Carta:"+matrizTridimensionalcartas [Setor3,3,Carta4]+" Valor Botão:" + valorbotao4);
 	}
 	
 	private void _on_button_pressed()
@@ -581,19 +556,12 @@ public partial class Inicio : Node
 
 		Carta1Sprite = GetNode<Sprite2D>("Flip1/Carta1");
 		Carta1Sprite.Frame = Carta1;
-		GD.Print("Carta 1: " +Carta1);
-
 		Carta2Sprite = GetNode<Sprite2D>("Flip2/Carta2");
 		Carta2Sprite.Frame = Carta2;
-		GD.Print("Carta 2: "+Carta2);
-
 		Carta3Sprite = GetNode<Sprite2D>("Flip3/Carta3");
 		Carta3Sprite.Frame = Carta3;
-		GD.Print("Carta 3: "+Carta3);
-
 		Carta4Sprite = GetNode<Sprite2D>("Flip4/Carta4");
 		Carta4Sprite.Frame = Carta4;
-		GD.Print("Carta 4: "+Carta4);
 		
 		Flip1.Play("Flip1");
 		Flip2.Play("Flip2");
@@ -615,152 +583,6 @@ public partial class Inicio : Node
 		ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
 		Saudecurrent_health = (Conta4 + Saudecurrent_health);
 		set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
-		
-		GD.Print("Vida meio ambiente: "+Ambientecurrent_health);
-		GD.Print("Vida segurança: "+Segurancacurrent_health);
-		GD.Print("Vida ensino: "+Ensinocurrent_health);
-		GD.Print("Vida saúde: "+Saudecurrent_health);
-		
-		/* Conta1
-		switch (Setor0)
-		{
-			case 0:
-
-			ProgressBar BarraAmbiente = GetNode <ProgressBar> ("Control/BarraAmbiente");
-			Ambientecurrent_health = (Conta1 + Ambientecurrent_health);
-			set_healthAmbiente(GetNode<ProgressBar>("Control/BarraAmbiente"), Ambientemax_health, Ambientecurrent_health);
-			
-			break;
-			
-			case 1:
-				
-			ProgressBar BarraSeguranca = GetNode <ProgressBar> ("Control/BarraSeguranca");
-			Segurancacurrent_health = (Conta1 + Segurancacurrent_health);
-			set_healthSeguranca(GetNode<ProgressBar>("Control/BarraSeguranca"), Segurancamax_health, Segurancacurrent_health);
-			
-			break;
-			
-			case 2:
-			
-			ProgressBar BarraEnsino = GetNode <ProgressBar> ("Control/BarraEnsino");
-			Ensinocurrent_health = (Conta1 + Ensinocurrent_health);
-			set_healthEnsino(GetNode<ProgressBar>("Control/BarraEnsino"), Ensinomax_health, Ensinocurrent_health);
-			
-			break;
-			
-			case 3: 
-
-			ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
-			Saudecurrent_health = (Conta1 + Saudecurrent_health);
-			set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
-			
-			break;
-		}
-		
-		switch (Setor1)
-		{
-			case 0:
-
-			ProgressBar BarraAmbiente = GetNode <ProgressBar> ("Control/BarraAmbiente");
-			Ambientecurrent_health = (Conta2 + Ambientecurrent_health);
-			set_healthAmbiente(GetNode<ProgressBar>("Control/BarraAmbiente"), Ambientemax_health, Ambientecurrent_health);
-			
-			break;
-			
-			case 1:
-				
-			ProgressBar BarraSeguranca = GetNode <ProgressBar> ("Control/BarraSeguranca");
-			Segurancacurrent_health = (Conta2 + Segurancacurrent_health);
-			set_healthSeguranca(GetNode<ProgressBar>("Control/BarraSeguranca"), Segurancamax_health, Segurancacurrent_health);
-			
-			break;
-			
-			case 2:
-			
-			ProgressBar BarraEnsino = GetNode <ProgressBar> ("Control/BarraEnsino");
-			Ensinocurrent_health = (Conta2 + Ensinocurrent_health);
-			set_healthEnsino(GetNode<ProgressBar>("Control/BarraEnsino"), Ensinomax_health, Ensinocurrent_health);
-			
-			break;
-			
-			case 3: 
-
-			ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
-			Saudecurrent_health = (Conta2 + Saudecurrent_health);
-			set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
-			
-			break;
-		}
-		
-		switch (Setor2)
-		{
-			case 0:
-
-			ProgressBar BarraAmbiente = GetNode <ProgressBar> ("Control/BarraAmbiente");
-			Ambientecurrent_health = (Conta3 + Ambientecurrent_health);
-			set_healthAmbiente(GetNode<ProgressBar>("Control/BarraAmbiente"), Ambientemax_health, Ambientecurrent_health);
-			
-			break;
-			
-			case 1:
-				
-			ProgressBar BarraSeguranca = GetNode <ProgressBar> ("Control/BarraSeguranca");
-			Segurancacurrent_health = (Conta3 + Segurancacurrent_health);
-			set_healthSeguranca(GetNode<ProgressBar>("Control/BarraSeguranca"), Segurancamax_health, Segurancacurrent_health);
-			
-			break;
-			
-			case 2:
-			
-			ProgressBar BarraEnsino = GetNode <ProgressBar> ("Control/BarraEnsino");
-			Ensinocurrent_health = (Conta3 + Ensinocurrent_health);
-			set_healthEnsino(GetNode<ProgressBar>("Control/BarraEnsino"), Ensinomax_health, Ensinocurrent_health);
-			
-			break;
-			
-			case 3: 
-
-			ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
-			Saudecurrent_health = (Conta3 + Saudecurrent_health);
-			set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
-			
-			break;
-		}
-		
-		switch (Setor3)
-		{
-			case 0:
-
-			ProgressBar BarraAmbiente = GetNode <ProgressBar> ("Control/BarraAmbiente");
-			Ambientecurrent_health = (Conta4 + Ambientecurrent_health);
-			set_healthAmbiente(GetNode<ProgressBar>("Control/BarraAmbiente"), Ambientemax_health, Ambientecurrent_health);
-			
-			break;
-			
-			case 1:
-				
-			ProgressBar BarraSeguranca = GetNode <ProgressBar> ("Control/BarraSeguranca");
-			Segurancacurrent_health = (Conta4 + Segurancacurrent_health);
-			set_healthSeguranca(GetNode<ProgressBar>("Control/BarraSeguranca"), Segurancamax_health, Segurancacurrent_health);
-			
-			break;
-			
-			case 2:
-			
-			ProgressBar BarraEnsino = GetNode <ProgressBar> ("Control/BarraEnsino");
-			Ensinocurrent_health = (Conta4 + Ensinocurrent_health);
-			set_healthEnsino(GetNode<ProgressBar>("Control/BarraEnsino"), Ensinomax_health, Ensinocurrent_health);
-			
-			break;
-			
-			case 3: 
-
-			ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
-			Saudecurrent_health = (Conta4 + Saudecurrent_health);
-			set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
-			
-			break;
-		}*/
 
 		Sprite2D [] cliques = {Moeda1Sprite, Moeda2Sprite, Moeda3Sprite, Moeda4Sprite};
 
@@ -799,11 +621,6 @@ public partial class Inicio : Node
 		
 		if (Saudecurrent_health <= 0 || Segurancacurrent_health <= 0 || Ensinocurrent_health <= 0 || Ambientecurrent_health <= 0)
 		{
-			GD.Print("Vida meio ambiente 2: "+Ambientecurrent_health);
-			GD.Print("Vida segurança 2: "+Segurancacurrent_health);
-			GD.Print("Vida ensino 2: "+Ensinocurrent_health);
-			GD.Print("Vida saúde 2: "+Saudecurrent_health);
-			
 			GetTree().ChangeSceneToFile("res://GameOver.tscn");
 		}
 	}
@@ -818,7 +635,6 @@ public partial class Inicio : Node
 				Moeda1Sprite = GetNode<Sprite2D>("Moeda1");
 				Moeda1Sprite.Position = posicao1;
 				valorbotao1 = listamoedas[0];
-				GD.Print("Valor botão 1:"+valorbotao1);
 				preenchido1 = true;
 				usado1 = true;
 				moeda1 = 1;
@@ -828,7 +644,6 @@ public partial class Inicio : Node
 				Moeda2Sprite = GetNode<Sprite2D>("Moeda2");
 				Moeda2Sprite.Position = posicao1;
 				valorbotao1 = listamoedas[1];
-				GD.Print("Valor botão 1:"+valorbotao1);
 				preenchido1 = true;
 				usado2 = true;
 				moeda2 = 1;
@@ -840,7 +655,6 @@ public partial class Inicio : Node
 				preenchido1 = true;
 				usado3 = true;
 				valorbotao1 = listamoedas[2];
-				GD.Print("Valor botão 1:"+valorbotao1);
 				moeda3 = 1;
 			}
 			else
@@ -850,7 +664,6 @@ public partial class Inicio : Node
 				preenchido1 = true;
 				usado4 = true;
 				valorbotao1 = listamoedas[3];
-				GD.Print("Valor botão 1:"+valorbotao1);
 				moeda4 = 1;
 			}
 		}
@@ -907,7 +720,6 @@ public partial class Inicio : Node
 					preenchido2 = true;
 					usado1 = true;
 					valorbotao2 = listamoedas[0];
-					GD.Print("Valor botão 2:"+valorbotao2);
 					moeda1 = 2;
 				}
 				else if (usado2 == false)
@@ -917,7 +729,6 @@ public partial class Inicio : Node
 					preenchido2 = true;
 					usado2 = true;
 					valorbotao2 = listamoedas[1];
-					GD.Print("Valor botão 2:"+valorbotao2);
 					moeda2 = 2;
 				}
 				else if (usado3 == false)
@@ -927,7 +738,6 @@ public partial class Inicio : Node
 					preenchido2 = true;
 					usado3 = true;
 					valorbotao2 = listamoedas[2];
-					GD.Print("Valor botão 2:"+valorbotao2);
 					moeda3 = 2;
 				}
 				else
@@ -937,7 +747,6 @@ public partial class Inicio : Node
 					preenchido2 = true;
 					usado4 = true;
 					valorbotao2 = listamoedas[3];
-					GD.Print("Valor botão 2:"+valorbotao2);
 					moeda4 = 2;
 			}
 		}
@@ -993,7 +802,6 @@ public partial class Inicio : Node
 				preenchido3 = true;
 				usado1 = true;
 				valorbotao3 = listamoedas[0];
-				GD.Print("Valor botão 3:"+valorbotao3);
 				moeda1 = 3;
 			}
 			else if (usado2 == false)
@@ -1003,7 +811,6 @@ public partial class Inicio : Node
 				preenchido3 = true;
 				usado2 = true;
 				valorbotao3 = listamoedas[1];
-				GD.Print("Valor botão 3:"+valorbotao3);
 				moeda2 = 3;
 			}
 			else if (usado3 == false)
@@ -1013,7 +820,6 @@ public partial class Inicio : Node
 				preenchido3 = true;
 				usado3 = true;
 				valorbotao3 = listamoedas[2];
-				GD.Print("Valor botão 3:"+valorbotao3);
 				moeda3 = 3;
 			}
 			else
@@ -1023,7 +829,6 @@ public partial class Inicio : Node
 				preenchido3 = true;
 				usado4 = true;
 				valorbotao3 = listamoedas[3];
-				GD.Print("Valor botão 3:"+valorbotao3);
 				moeda4 = 3;
 			}
 		}
@@ -1080,7 +885,6 @@ public partial class Inicio : Node
 				preenchido4 = true;
 				usado1 = true;
 				valorbotao4 = listamoedas[0];
-				GD.Print("Valor botão 4:"+valorbotao4);
 				moeda1 = 4;
 			}
 			else if (usado2 == false)
@@ -1090,7 +894,6 @@ public partial class Inicio : Node
 				preenchido4 = true;
 				usado2 = true;
 				valorbotao4 = listamoedas[1];
-				GD.Print("Valor botão 4:"+valorbotao4);
 				moeda2 = 4;
 			}
 			else if (usado3 == false)
@@ -1100,7 +903,6 @@ public partial class Inicio : Node
 				preenchido4 = true;
 				usado3 = true;
 				valorbotao4 = listamoedas[2];
-				GD.Print("Valor botão 4:"+valorbotao4);
 				moeda3 = 4;
 			}
 			else
@@ -1110,7 +912,6 @@ public partial class Inicio : Node
 				preenchido4 = true;
 				usado4 = true;
 				valorbotao4 = listamoedas[3];
-				GD.Print("Valor botão 4:"+valorbotao4);
 				moeda4 = 4;
 			}
 		}
@@ -1182,7 +983,6 @@ public partial class Inicio : Node
 				}
 			}
 		}
-		
 	if (preenchido1 == false || preenchido2 == false || preenchido3 == false || preenchido4 == false)
 	{
 		avancar.Visible = false;
@@ -1196,17 +996,5 @@ public partial class Inicio : Node
 	{
 		GetTree().ChangeSceneToFile("res://Vitoria.tscn");
 	}
-	
-	/*else if (Saudecurrent_health <= 0 || Segurancacurrent_health <= 0 || Ensinocurrent_health <= 0 || Ambientecurrent_health <= 0)
-	{
-		GD.Print("Vida meio ambiente 3: "+Ambientecurrent_health);
-		GD.Print("Vida segurança 3: "+Segurancacurrent_health);
-		GD.Print("Vida ensino 3: "+Ensinocurrent_health);
-		GD.Print("Vida saúde 3: "+Saudecurrent_health);
-			
-		GetTree().ChangeSceneToFile("res://GameOver.tscn");
-	}*/
 	}
 }
-
-

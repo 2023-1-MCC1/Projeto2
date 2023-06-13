@@ -54,4 +54,3 @@ volume_db = 4.0
 autoplay = true
 
 [connection signal="pressed" from="BotaoInicio" to="." method="_on_botao_inicio_pressed"]
-[connection signal="finished" from="MusicaInicio" to="." method="_on_musica_inicio_finished"]

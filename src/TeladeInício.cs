@@ -18,11 +18,6 @@ public partial class TeladeInício : Node2D
 	{
 		GetTree().ChangeSceneToFile("res://Introdução.tscn");
 	}
-	
-	private void _on_musica_inicio_finished()
-	{
-		//musicainicio.Loop = true;
-	}
 }
 
 

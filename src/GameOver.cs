@@ -13,7 +13,6 @@ public partial class GameOver : Node2D
 	
 	private void _on_botao_derrota_1_pressed()
 	{
-		//GetTree().ChangeSceneToFile("res://Tela de Início.tscn");
 		GetTree().ChangeSceneToFile("res://TeladeFases.tscn");
 	}
 	

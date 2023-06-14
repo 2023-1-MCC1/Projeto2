@@ -495,8 +495,8 @@ public partial class Inicio : Node
 	
 	private void _on_button_pressed()
 	{
-		sorteios();
 		contas();
+		sorteios();
 		count++;
 
 		preenchido1 = false;
@@ -568,21 +568,37 @@ public partial class Inicio : Node
 		Flip3.Play("Flip3");
 		Flip4.Play("Flip4");
 		
-		ProgressBar BarraAmbiente = GetNode <ProgressBar> ("Control/BarraAmbiente");
-		Ambientecurrent_health = (Conta1 + Ambientecurrent_health);
-		set_healthAmbiente(GetNode<ProgressBar>("Control/BarraAmbiente"), Ambientemax_health, Ambientecurrent_health);
+		ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
+		Saudecurrent_health = (Conta4 + Saudecurrent_health);
+		if (Saudecurrent_health > 10)
+		{
+			Saudecurrent_health = 10;
+		}
+		set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
 		
 		ProgressBar BarraSeguranca = GetNode <ProgressBar> ("Control/BarraSeguranca");
 		Segurancacurrent_health = (Conta2 + Segurancacurrent_health);
+		if (Segurancacurrent_health > 10)
+		{
+			Segurancacurrent_health = 10;
+		}
 		set_healthSeguranca(GetNode<ProgressBar>("Control/BarraSeguranca"), Segurancamax_health, Segurancacurrent_health);
 		
 		ProgressBar BarraEnsino = GetNode <ProgressBar> ("Control/BarraEnsino");
 		Ensinocurrent_health = (Conta3 + Ensinocurrent_health);
+		if (Ensinocurrent_health > 10)
+		{
+			Ensinocurrent_health = 10;
+		}
 		set_healthEnsino(GetNode<ProgressBar>("Control/BarraEnsino"), Ensinomax_health, Ensinocurrent_health);
 		
-		ProgressBar BarraSaude = GetNode <ProgressBar> ("Control/BarraSaude");
-		Saudecurrent_health = (Conta4 + Saudecurrent_health);
-		set_healthSaude(GetNode<ProgressBar>("Control/BarraSaude"), Saudemax_health, Saudecurrent_health);
+		ProgressBar BarraAmbiente = GetNode <ProgressBar> ("Control/BarraAmbiente");
+		Ambientecurrent_health = (Conta1 + Ambientecurrent_health);
+		if (Ambientecurrent_health > 10)
+		{
+			Ambientecurrent_health = 10;
+		}
+		set_healthAmbiente(GetNode<ProgressBar>("Control/BarraAmbiente"), Ambientemax_health, Ambientecurrent_health);
 
 		Sprite2D [] cliques = {Moeda1Sprite, Moeda2Sprite, Moeda3Sprite, Moeda4Sprite};
 
@@ -958,23 +974,6 @@ public partial class Inicio : Node
 
 	public override void _Process(double delta)
 	{
-		if (Saudecurrent_health > 10)
-		{
-			Saudecurrent_health = 10;
-		}
-		if (Segurancacurrent_health > 10)
-		{
-			Segurancacurrent_health = 10;
-		}
-		if (Ensinocurrent_health > 10)
-		{
-			Ensinocurrent_health = 10;
-		}
-		if (Ambientecurrent_health > 10)
-		{
-			Ambientecurrent_health = 10;
-		}
-		
 		if (count <= 11)
 		{
 			matriz();

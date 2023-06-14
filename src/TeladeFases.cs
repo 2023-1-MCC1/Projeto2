@@ -3,7 +3,7 @@ using System;
 
 public partial class TeladeFases : Node2D
 {
-	AnimationPlayer Area1, Area2, Area3;
+	public static AnimationPlayer Area1, Area2, Area3;
 	bool entrou1, entrou2, entrou3;
 	public static int nivel;
 	

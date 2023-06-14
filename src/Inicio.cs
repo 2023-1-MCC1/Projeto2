@@ -958,6 +958,23 @@ public partial class Inicio : Node
 
 	public override void _Process(double delta)
 	{
+		if (Saudecurrent_health > 10)
+		{
+			Saudecurrent_health = 10;
+		}
+		if (Segurancacurrent_health > 10)
+		{
+			Segurancacurrent_health = 10;
+		}
+		if (Ensinocurrent_health > 10)
+		{
+			Ensinocurrent_health = 10;
+		}
+		if (Ambientecurrent_health > 10)
+		{
+			Ambientecurrent_health = 10;
+		}
+		
 		if (count <= 11)
 		{
 			matriz();
